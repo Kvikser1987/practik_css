@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Overflow</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -10,52 +10,58 @@
       crossorigin="anonymous"
     />
     <style>
-        .articles>div {
-            height: 100px;
-            width: 150px;
-            background-color: beige;
-            margin: 16px;
-            box-sizing: content-box;
-          
-
+        * {
+            box-sizing:border-box;
         }
-        .articles{
-            display: flex;
-        }
-        .visible-text {
-            overflow: visible;
-        }
-        .cropped {
-            overflow: hidden;
-        }
-        .both-scrolls {
-            overflow: scroll;
-        }
-        .vertical-scroll {
-            overflow-y: auto;
-        }
-
+         .dropdown {
+             position: relative;
+             display: inline-block;
+             padding:16px;
+             background-color:darkgray;
+             opacity: 0.8;
+             font-size: 16px;
+             color: white;
+         }
+         .dropdown:hover {
+             opacity: 1;
+         }
+         .dropdown {
+             margin: 16px;
+         }
+         .menu-list {
+            position: absolute;
+            background-color:lightcyan;
+            box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+            margin: 0;
+            padding: 0;
+            min-width: 120px;
+            display: none;
+            list-style-type: none;
+            z-index: 1;
+            
+         }
+            .menu-item {
+                padding: 16px;
+            }
+         .dropdown:hover .menu-list {
+            display: block;
+             
+         }
+         .menu-item:hover {
+             background-color:ghostwhite;
+         }
+         
     </style>
   </head>
 
   <body>
-    <div class="articles">
-      <div class="visible-text">
-        You can use the overflow property when you want to have better control of the layout. The
-        overflow property specifies what happens if content overflows an element's box.
-      </div>
-      <div class="cropped">
-        You can use the overflow property when you want to have better control of the layout. The
-        overflow property specifies what happens if content overflows an element's box.
-      </div>
-      <div class="both-scrolls">
-        You can use the overflow property when you want to have better control of the layout. The
-        overflow property specifies what happens if content overflows an element's box.
-      </div>
-      <div class="vertical-scroll">
-        You can use the overflow property when you want to have better control of the layout. The
-        overflow property specifies what happens if content overflows an element's box.
-      </div>
+    <div class="dropdown">
+      <span class="menu-button">Hover me</span>
+      <ul class="menu-list">
+        <li class="menu-item">Cars</li>
+        <li class="menu-item">Planes</li>
+        <li class="menu-item">Ships</li>
+      </ul>
     </div>
   </body>
 </html>
