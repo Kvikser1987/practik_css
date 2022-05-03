@@ -33,7 +33,7 @@
     display: none;
     list-style-type: none;
     z-index: 1;
-    margin-bottom: 1px;
+    margin-bottom: 100px;
     
  }
     .menu-item {
@@ -52,6 +52,7 @@
  }
  .menu-item:nth-child(3){
     margin-top: -1px;
+    margin-bottom: 1px;
 
 }
  
