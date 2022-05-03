@@ -46,4 +46,7 @@
      background-color:ghostwhite;
      
  }
+ .menu-item:nth-child(2){
+     margin-top: 1px;
+ }
  
