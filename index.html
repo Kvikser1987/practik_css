@@ -3,52 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
-      crossorigin="anonymous"
-    />
     <style>
         .text {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            margin: 0px;
-            margin-left: -50px;
-            
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-direction: column;
+         margin: 16px;
+         
+        
         }
-        .text span:nth-child(1) {
-           
-            align-items: center;
-            box-sizing:border-box;
-            margin: 14px;
-            border-bottom: 1px dotted black;
-            margin-bottom: 0px;
-            
-  
-        }
- 
         .tooltip {
-            display: flex;
-            color:white;
-            background-color:grey;
-            margin: 0;
             
-            padding: 0;
-            width: 100px;
+           
+            background-color:grey;
+            color:white;
             border-radius: 4px;
             padding: 8px;
-            margin-bottom: -75px;
-   
+            
+        }
+        body{
+            display: flex;
+            
         }
     </style>
   </head>
 
   <body>
     <div class="text">
-      <span>Hover over me</span>
+      Hover over me
       <span class="tooltip">I'm a tooltip</span>
     </div>
   </body>
