@@ -9,19 +9,17 @@
           box-sizing:border-box;
       }
         .text {
-          
-          left: 5px;
+          top: 0px;
+          left: 0px;
+          display: block;
+         
           display: flex;
-          justify-content: space-around;
-          
           margin: 16px;
-          position: absolute;
-       
+          position:absolute;
         }
+      
         .text span:nth-child(1) {
           border-bottom:1px dotted black;
-      
-         
         }
         .text:hover .tooltip {
            display: block;
@@ -33,7 +31,7 @@
           color:white;
           border-radius: 4px;
           padding: 8px;
-          display: block;
+          display: none;
           left: 0;
         
         }
