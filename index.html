@@ -10,28 +10,36 @@
          align-items: center;
          flex-direction: column;
          margin: 16px;
-         
-        
+       position: relative;
+       
+        }
+        .text span:nth-child(1) {
+          border-bottom:1px dotted black;
+          bottom: 40px;
         }
         .tooltip {
-            
-           
+          position: absolute;
+          bottom: -40px;
+           text-decoration: none;
             background-color:grey;
             color:white;
             border-radius: 4px;
             padding: 8px;
+            
             
         }
         body{
             display: flex;
             
         }
+       
     </style>
   </head>
 
   <body>
     <div class="text">
-      Hover over me
+      <span>Hover over me</span>
+     
       <span class="tooltip">I'm a tooltip</span>
     </div>
   </body>
