@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <style>
+      
+      * {
+          box-sizing:border-box;
+      }
         .text {
        
          display: flex;
@@ -16,16 +20,20 @@
         }
         .text span:nth-child(1) {
           border-bottom:1px dotted black;
+      
          
         }
-        .tooltip {
+        .text:hover .tooltip {
+           display: block;
+        }
+         .tooltip {
           position: absolute;
           bottom: -40px;
           background-color:grey;
           color:white;
           border-radius: 4px;
           padding: 8px;
-          visibility: hidden;
+          display: none;
             
         }
         body{
