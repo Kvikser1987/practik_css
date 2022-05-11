@@ -3,7 +3,7 @@
     height: 200px;
     width: 200px;
 
-    margin: 15px;
+    margin: 16px;
     text-align: center;
     text-transform:inherit;
     border:1px dotted grey;
@@ -11,6 +11,7 @@
     /*background-clip: calc();*/
     background-size:contain;
     background-repeat: no-repeat;
+    box-sizing:border-box;
 }
 .gallery {
     display: flex;
