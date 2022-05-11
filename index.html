@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <title>Gradient Text Color</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -10,28 +10,18 @@
       crossorigin="anonymous"
     />
     <style>
-      *{
-        box-sizing: border-box;
+      .icon {
+        margin: 100px;
+        width: 100px;
+        height: 100px;
+        background-image:url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png);
+        
       }
-     .mountains {
-        padding: 32px;
-        text-align: center;
-        text-transform:inherit;
-        height: 500px;
-        width: 300px;
-        background-color: red;
-        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
-        background-position: center;
-        /*background-clip: calc();*/
-        background-size: cover;
-        background-repeat: no-repeat;
-        color:white;
-        font-size: 32px;
-        font-weight: 700;
-      }
+      .icon:hover {
+        background-position-x: -100px;      }
     </style>
   </head>
   <body>
-    <div class="mountains">Mountains</div>
+      <div class="icon">Super title</div>
   </body>
 </html>
