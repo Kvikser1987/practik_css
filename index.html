@@ -9,34 +9,60 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+  
     <style>
-      .rectangle {
-        background-color: blue;
-        width: 100px;
-        height: 100px;
-      }
+       
+        .main-image>img {
+          margin:50px auto 0;
+          display: block;
+          max-width: 100%;
+          border-radius: 20px;
+        }
+        .gallery {
+         display: flex;
+        }
+        .card {
+          margin: 16px;
+      
+        }
+        .opacity-filter {
+          filter: opacity(50%);
+        }
+        .blur-filter {
+          filter: blur(4px);
+        }
+        .invert-filter {
+          filter:invert(100%);
+        }
+        .caption {
+          line-height: 30px;
+          text-align: center;
+        }
 
-      .text {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      .text::first-letter {
-        color: red;
-      }
-
-      .new {
-        color: grey;
-      }
     </style>
   </head>
 
   <body>
-    <div class="rectangle"></div>
-    <p class="text new">
-      Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида
-      документа, написанного с использованием языка разметки.
-    </p>
-  </body>
+      <div class="main-image"><img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="Land with three"></div>
+      <div class="gallery">
+          <figure class="card">
+            <img class="opacity-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Opacity filter">
+            <figcaption class="caption">
+                Opacity
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img class="blur-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Blur filter">
+            <figcaption class="caption">
+                Blur
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img class="invert-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="invert filter">
+            <figcaption class="caption">
+                Invert
+            </figcaption>
+          </figure>
+      </div>
+    </body>
 </html>
