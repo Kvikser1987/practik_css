@@ -12,64 +12,20 @@
   
 
     <style>
-  
-       .image-container {
-        margin:50px auto;
-         
-       }
-        .main-image {
-           
-          margin:auto;
-          display: block;
-            max-width: 100%;
-            border-radius: 20px;
-        }
-        .gallery {
-         display: flex;
-        }
-        .card {
-          margin: 16px;
-          box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
-      
-        }
-        .opacity-filter {
-          filter: opacity(50%);
-        }
-        .blur-filter {
-          filter: blur(4px);
-        }
-        .invert-filter {
-          filter:invert(100%);
-        }
-        .caption {
-          line-height: 30px;
-          text-align: center;
-        }
+      .main-video {
+        width: 500px;
+        height: auto;
+        margin: 0 auto;
+
+        margin-top: 200px;
+        display: black ;
+      }
 
     </style>
   </head>
 
   <body>
-      <div class="image-container"><img class="main-image" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg" alt="Land with three"></div>
-      <div class="gallery">
-          <figure class="card">
-            <img class="opacity-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Opacity filter">
-            <figcaption class="caption">
-                Opacity
-            </figcaption>
-          </figure>
-          <figure class="card">
-            <img class="blur-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="Blur filter">
-            <figcaption class="caption">
-                Blur
-            </figcaption>
-          </figure>
-          <figure class="card">
-            <img class="invert-filter" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg" alt="invert filter">
-            <figcaption class="caption">
-                Invert
-            </figcaption>
-          </figure>
-      </div>
-    </body>
+    <video class="main-video" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task2/example.mp4" controls autoplay ></video>   
+    <source src="example.mp4" type="video/mp4">
+  </body>
 </html>
