@@ -24,8 +24,9 @@
       background-color:#d3d3d3;
       position: absolute;
       display: inline-block;
-    top:0;
+      top:0;
       left: 0px;
+    
     }
     .checkbox {
     
@@ -36,6 +37,7 @@
       font-size: 24px;
   
   
+  
     }
  
     .checkbox input:checked + .checkmark {
@@ -43,10 +45,16 @@
      background-color:#006400;
 
     }
+    p {
+      position: relative;
+      display: inline-block;
+     
+      top:-2px;
+    }
   </style>
   <body>
     <label class="checkbox"
-      >Checkbox
+      ><p>Checkbox</p>
       <input type="checkbox" />
       <span class="checkmark"></span>
     </label>
