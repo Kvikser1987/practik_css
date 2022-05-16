@@ -28,7 +28,7 @@
     margin-right: 90px;
     width: 270px;
   }
-  input[type=text] {
+  input:invalid {
       border: 3px solid #ff0000;
     
   }
@@ -36,6 +36,7 @@
      margin-bottom: 4px;
   }
    .submit-button {
+       text-transform: uppercase;
        height: 32px;
        margin-top: 16px;
        width: 270px;
