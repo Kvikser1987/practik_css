@@ -18,11 +18,11 @@ label:nth-child(1) {
     display: flex; /* ? */ /* V */
     flex-direction:column;
     align-items: center; 
-    height: 345px;  /* ? */
+    height: 342px;  /* ? */
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); /* V */
     background-color: aqua; /* V */
     margin: auto;   /* V? */
-    margin: 127px auto;
+    margin: 130px auto;
     width: 300px; /* V */
     padding: 16px; /* V */  
   }
@@ -34,10 +34,8 @@ label:nth-child(1) {
     text-align: center; /* V */
   }
   .form-input {
-    
     flex-direction:column;
     align-items: center;
-    
     height: 32px;
     border-radius:4px;
     padding: 4px;
@@ -52,7 +50,6 @@ label:nth-child(1) {
   }*/
 
   .form-control {
-   
     margin-bottom: 8px;
   }
   .submit-button {
