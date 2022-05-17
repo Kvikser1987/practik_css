@@ -1,6 +1,7 @@
 * {
   box-sizing:border-box;
 }
+
 .page {
     background-color:bisque;
     display: flex;
@@ -43,10 +44,7 @@
   /*.form-input {
     margin-top: 4px;
   }*/
-  .form-label {
-    margin-bottom: 4px;
-    display: block;
-  }
+
   .form-control {
    
     margin-bottom: 8px;
