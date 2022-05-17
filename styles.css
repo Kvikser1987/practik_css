@@ -12,7 +12,7 @@
     display: flex; /* ? */ /* V */
     flex-direction:column;
     align-items: center; 
-    height: 330px;  /* ? */
+    height: 340px;  /* ? */
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); /* V */
     background-color: aqua; /* V */
     margin: auto;   /* V? */
@@ -49,6 +49,7 @@
   }*/
   .form-label {
     margin-bottom: 4px;
+    display: block;
   }
  .form-control{
    margin-top: 8px;
