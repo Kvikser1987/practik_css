@@ -1,6 +1,9 @@
 .page {
     background-color:bisque;
     display: flex;
+    height: 100vh;
+    font-size: 16px;
+  
   }
   
   .login-form {
@@ -14,8 +17,7 @@
     margin: 100px auto;   /* V? */
     width: 300px; /* V */
     padding: 16px; /* V */
-    font-size: 16px;  /* V */
-    font-family: monospace; /* V */
+   
   }
   .form-title {
     width: 268px; /* - */
