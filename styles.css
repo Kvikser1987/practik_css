@@ -19,7 +19,7 @@
     padding: 16px; /* V */
  
   }
-  form-label {
+  .form-label {
     display: block;
     margin-bottom: 4px;
   }
