@@ -18,7 +18,7 @@ label:nth-child(1) {
     display: flex; /* ? */ /* V */
     flex-direction:column;
     align-items: center; 
-    height: 347px;  /* ? */
+    height: 346px;  /* ? */
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); /* V */
     background-color: aqua; /* V */
     margin: auto;   /* V? */
