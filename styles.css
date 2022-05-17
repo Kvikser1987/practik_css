@@ -18,11 +18,11 @@ label:nth-child(1) {
     display: flex; /* ? */ /* V */
     flex-direction:column;
     align-items: center; 
-    height: 348px;  /* ? */
+    height: 347px;  /* ? */
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); /* V */
     background-color: aqua; /* V */
     margin: auto;   /* V? */
-    margin: 126px auto;
+    margin: 127px auto;
     width: 300px; /* V */
     padding: 16px; /* V */  
     padding-top: 17px;
