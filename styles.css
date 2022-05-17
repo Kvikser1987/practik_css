@@ -1,3 +1,6 @@
+* {
+  box-sizing:border-box;
+}
 .page {
     background-color:bisque;
     display: flex;
@@ -24,7 +27,7 @@
     text-align: center; /* V */
   }
   .form-input {
-    box-sizing: border-box;
+    
     flex-direction:column;
     align-items: center;
     
@@ -49,7 +52,7 @@
     margin-bottom: 8px;
   }
   .submit-button {
-    box-sizing: border-box;
+    
     position: relative;
     top: 20px;
     text-transform: uppercase;
