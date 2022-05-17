@@ -26,7 +26,7 @@ label:nth-child(1) {
     padding: 16px; /* V */  
   }
   .form-title { 
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     /* - */
     text-transform: uppercase; /* V */
     text-align: center; /* V */
@@ -56,7 +56,7 @@ label:nth-child(1) {
   .submit-button {
     
     position: relative;
-    top: 20px;
+    top: 16px;
     text-transform: uppercase;
     height: 32px;
    
