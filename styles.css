@@ -44,10 +44,15 @@
       border: 3px solid #ff0000;
     
   } 
-  .form-input {
-    margin-top: 5px;
+  /*.form-input {
+    margin-top: 4px;
+  }*/
+  .form-label {
+    margin-bottom: 4px;
   }
- 
+ .form-control{
+   margin-top: 8px;
+ }
    .submit-button {
       box-sizing: border-box;
       position: relative;
