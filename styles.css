@@ -1,71 +1,58 @@
-* {
-  box-sizing:border-box;
-}
-label:nth-child(1) {
-  margin-bottom: 4px;
-  display: block;
-}
-.page {
-    background-color:bisque;
-    display: flex;
-    height: 100vh;
-    font-size: 16px;
-    font-family: monospace;
-  
-  } 
-  .login-form {
-    box-sizing: border-box;
-    display: flex; /* ? */ /* V */
-    flex-direction:column;
-    align-items: center; 
-   
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); /* V */
-    background-color: aqua; /* V */
-    margin: auto;   /* V? */
-    margin: 127px auto;
-    width: 300px; /* V */
-    padding: 16px; /* V */
-    padding-top: 1em; 
-    
-   
-  }
-  .form-title { 
-  
-    margin-bottom: 21px;
-    /* - */
-    text-transform: uppercase; /* V */
-    text-align: center; /* V */
-  }
-  .form-input {
-    flex-direction:column;
-    align-items: center;
-    height: 32px;
-    border-radius:4px;
-    padding: 4px;
-    border: 1px solid #808080;
-    outline: none;
-  }
-  input:invalid {
-    border: 3px solid #ff0000; 
-  } 
-  /*.form-input {
-    margin-top: 4px;
-  }*/
 
-  .form-control {
-    margin-bottom: 8px;
-  }
-  .submit-button {
+* {
+    box-sizing:border-box;
+}
+ .dropdown {
+     position: relative;
+     display: inline-block;
+     padding:16px;
+     background-color: darkgreen;
+     opacity: 0.8;
+     font-size: 16px;
+     cursor: pointer;
+     
+ }
+ .menu-button {
+     color:white;
+ }
+ .dropdown:hover {
+     opacity: 1;
+ }
+ .dropdown {
+     margin: 16px;
+ }
+ .menu-list {
+    position: absolute;
+    top:50px;
+    left: 0;
+    background-color:lightcyan;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+    min-width: 120px;
+    display: none;
+    list-style-type: none;
+    z-index: 1;
+    margin-bottom: 100px;
     
-    position: relative;
-    top: 16px;
-    text-transform: uppercase;
-    height: 32px;
-   
-    background-color: #ff7f50;
-    color:white;
-    border-radius: 4px;
-  }
-  h1, input, button {
-    width: 268px;
-  } 
+ }
+    .menu-item {
+        padding: 16px;
+    }
+ .dropdown:hover .menu-list {
+    display: block;
+     
+ }
+ .menu-item:hover {
+     background-color:ghostwhite;
+     
+ }
+ .menu-item:nth-child(2){
+     margin-top: 1px;
+ }
+ .menu-item:nth-child(3){
+    margin-top: -1px;
+    margin-bottom: 1px;
+
+}
+ 
