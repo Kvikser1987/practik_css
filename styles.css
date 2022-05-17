@@ -5,8 +5,7 @@
     font-size: 16px;
     font-family: monospace;
   
-  }
-  
+  } 
   .login-form {
     box-sizing: border-box;
     display: flex; /* ? */ /* V */
@@ -17,15 +16,12 @@
     background-color: aqua; /* V */
     margin: auto;   /* V? */
     width: 300px; /* V */
-    padding: 16px; /* V */
-   
+    padding: 16px; /* V */  
   }
-  .form-title {
-   
+  .form-title { 
     width: 268px; /* - */
     text-transform: uppercase; /* V */
     text-align: center; /* V */
-   
   }
   .form-input {
     box-sizing: border-box;
@@ -38,11 +34,9 @@
     padding: 4px;
     border: 1px solid #808080;
     outline: none;
- 
   }
   input:invalid {
-      border: 3px solid #ff0000;
-    
+    border: 3px solid #ff0000; 
   } 
   /*.form-input {
     margin-top: 4px;
@@ -51,17 +45,17 @@
     margin-bottom: 4px;
     display: block;
   }
- .form-control{
-   margin-top: 8px;
- }
-   .submit-button {
-      box-sizing: border-box;
-      position: relative;
-      top: 20px;
-      text-transform: uppercase;
-      height: 32px;
-      width: 268px;
-      background-color: #ff7f50;
-      color:white;
-      border-radius: 4px;
-   }
+  .form-control {
+    margin-top: 8px;
+  }
+  .submit-button {
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    text-transform: uppercase;
+    height: 32px;
+    width: 268px;
+    background-color: #ff7f50;
+    color:white;
+    border-radius: 4px;
+  }
