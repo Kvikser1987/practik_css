@@ -22,7 +22,7 @@
     font-family: monospace;
   }
   .form-title {
-    width: 260px;
+    width: 265px;
     text-transform: uppercase;
     text-align: center;
   }
@@ -33,7 +33,7 @@
     align-items: center;
     margin-top: 4px;
     margin-bottom: 8px;
-    width: 260px;
+    width: 265px;
     height: 32px;
     border-radius:4px;
     border: 1px solid #808080;
