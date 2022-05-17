@@ -8,7 +8,7 @@
   }
   
   .login-form {
-    
+    box-sizing: border-box;
     display: flex; /* ? */ /* V */
     flex-direction:column;
     align-items: center; 
