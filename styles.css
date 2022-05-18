@@ -1,58 +1,32 @@
-* {
-  box-sizing:border-box;
-}
-
-main {
-    background-color:bisque;
-    display: flex;
-    height: 100vh;
-    font-size: 16px;
-    font-family: monospace;
-  
-    /*drgaergerag*/
-  } 
-  form {
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); /* V */
-    background-color: aqua; /* V */
-    margin: auto;   /* V? */
-    width: 300px; /* V */
-    padding: 16px; /* V */
- 
-  }
-  .form-label {
-    display: block;
-    margin-bottom: 4px;
-  }
-  .form-title {
-    /* - */
-    text-transform: uppercase; /* V */
-    text-align: center; /* V */
-  }
-  .form-input {
+input[type="checkbox"] {
+    visibility: hidden;
+    width: 0;
+    height: 0;
    
-    height: 32px;
-    border-radius:4px;
-    padding: 4px;
-    border: 1px solid #808080;
-    outline: none;
-    width: 100%;
+  }
+  .checkmark {
     
+    width: 25px;
+    height: 25px;
+    background-color:#d3d3d3;
+    position: absolute;
+    display: inline-block;
+  top:0;
+    left: 0px;
   }
-  input:invalid {
-    border: 3px solid #ff0000; 
-  } 
+  .checkbox {
+  
+    top:16px;
+    left: 16px;
+    padding-left: 35px;
+    position: relative;
+    font-size: 24px;
 
-  .form-control {
-    margin-bottom: 8px;
-   
-  }
-  .submit-button {
-    margin-top: 16px;
-    width: 100%;
-    text-transform: uppercase;
-    height: 32px;
-    background-color: coral;
-    color:white;
-    border-radius: 4px;
+
   }
 
+  .checkbox input:checked + .checkmark {
+  
+   background-color:#006400;
+
+  }
